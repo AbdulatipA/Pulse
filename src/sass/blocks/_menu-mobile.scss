@@ -1,0 +1,25 @@
+.menu {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 70%;
+    z-index: 2;
+    text-align: center;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0;
+    transition: .6s all; 
+    &__active {
+        left: 0;
+        display: block;
+    }
+          
+    &__item {
+        margin-top: 20px;
+    }
+    &__sm {
+        display: block;
+        margin-bottom: 80px;
+    }
+}

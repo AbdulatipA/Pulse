@@ -1,0 +1,21 @@
+.button {
+    background-color: $mainColor;
+    padding: 6px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: $whiteColor;
+    font-size: 12px;
+    font-weight: 500;
+    transition: .4s all;
+    &:active {
+        background-color: #9e0303;
+    }
+    &__main {
+        padding: 12px 28px;
+        font-size: 16px;
+        margin-top: 67px;
+    }
+}

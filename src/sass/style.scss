@@ -1,0 +1,26 @@
+@import'base/variables';
+@import'blocks/promo';
+@import'blocks/header';
+@import'blocks/buttons';
+@import'blocks/advantage';
+@import'blocks/title';
+@import'blocks/hamburger';
+@import 'blocks/menu-mobile';
+
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hamburger{
+    display: none;
+}
+
+@import 'blocks/media';
