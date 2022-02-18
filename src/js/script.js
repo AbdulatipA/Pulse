@@ -14,4 +14,4 @@ window.addEventListener('DOMContentLoaded', () => {
             menu.classList.toggle('menu__active');
         })
     })
-})
+});
