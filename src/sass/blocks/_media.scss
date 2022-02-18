@@ -22,8 +22,7 @@
         &__title {
             margin-top: 15px;
         }
-    }
-    
+    }   
 }
 
 @media (max-width: 768px) {
@@ -100,6 +99,27 @@
             margin-top: 44px;
         }
     }
+
+    .consultation {
+        .title_left {
+            text-align: center;
+            line-height: 30px;
+        }
+        &__descr {
+            text-align: center;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .feed-form {
+            padding: 50px 0 50px 0;
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+    }
+
+
+
+
     .title {
         font-size: 22px;
     }

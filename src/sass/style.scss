@@ -3,14 +3,22 @@
 @import'blocks/header';
 @import'blocks/buttons';
 @import'blocks/advantage';
+@import'blocks/consultation';
 @import'blocks/title';
 @import'blocks/hamburger';
 @import 'blocks/menu-mobile';
+@import 'blocks/forms';
 
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
     font-weight: 400;
+   
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
