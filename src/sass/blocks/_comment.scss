@@ -1,0 +1,35 @@
+.comment {
+    padding-bottom: 26px;
+    &__wrapper{
+        margin-top: 60px;
+        width: 900px;
+    }
+    &__item {
+        list-style-type: none;
+        display: flex;
+        align-items: flex-start;
+        &:not(:last-child) {
+            margin-bottom: 60px;
+        }
+        span {
+            font-size: 14px;
+            font-weight: 500;
+            color: #646464;
+        }
+    }
+    &__img {
+        max-height: 100%;
+        height: 170px;
+        margin-right: 60px;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 800;
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+}
