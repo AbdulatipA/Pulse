@@ -22,7 +22,39 @@
         &__title {
             margin-top: 15px;
         }
-    }   
+    }
+    .carousel {
+        &__inner {
+            max-width: 650px;
+        }
+        .slick-dots {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            li {
+                margin: 0 10px;
+                button {
+                    background-color: rgb(219, 219, 219);
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 100%;
+                    outline: none;
+                    border: none;
+                    font-size: 0;
+                }
+            } 
+        }
+    }
+    .comment {
+        &__wrapper {
+            width: auto;
+        }
+    }
+    .footer {
+        &__info {
+            height: 210px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -41,6 +73,37 @@
         padding-bottom: 33px;
         &__wrapper {
             align-items: center;
+        }
+    }
+
+    .carousel {
+        &__inner {
+            max-width: 550px;
+            height: auto;
+        }
+        .slick-dots {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            li {
+                margin: 0 10px;
+                button {
+                    background-color: rgb(219, 219, 219);
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 100%;
+                    outline: none;
+                    border: none;
+                    font-size: 0;
+                }
+            } 
+        }
+    }
+    .catalog {
+        &-item{
+            &:not(:last-child) {
+                margin-right: 0;
+            }
         }
     }
 }
@@ -116,10 +179,6 @@
             margin-top: 25px;
         }
     }
-
-
-
-
     .title {
         font-size: 22px;
     }
@@ -128,5 +187,103 @@
     }
     .menu .menu__sm {
         display: block;
+    }
+
+
+    .carousel {
+        &__inner {
+            max-width: 550px;
+            height: auto;
+        }
+        .slick-dots {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            li {
+                margin: 0 10px;
+                button {
+                    background-color: rgb(219, 219, 219);
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 100%;
+                    outline: none;
+                    border: none;
+                    font-size: 0;
+                }
+            } 
+        }
+    }
+    .catalog {
+        &-item{
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+        }
+        &__tab {
+            height: 35px;
+            font-size: 12px;
+            line-height: 35px;
+            margin-bottom: 10px;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+    }
+    .comment {
+        &__title {
+            font-size: 16px;
+        }
+        &__item {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        &__img {
+            max-width: 130px;
+            max-height: 130px;
+            margin-right: 0;
+        }
+        &__info {
+            width: 100%;
+            margin-top: 20px;
+        }
+        &__title {
+            text-align: center;
+        }
+        span {
+            display: block;
+            font-size: 12px;
+            text-align: center;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 100%;
+            height: 130px;
+            padding: 10px 20px;
+        }
+        &__address {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        &__phone {
+            font-size: 14px;
+            line-height: 14px;
+            margin-top: 20px;
+        }
+        &__social {
+            margin-top: 20px;
+            &__icon {
+                margin: 0 10px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                } 
+            }
+        }
     }
 }
