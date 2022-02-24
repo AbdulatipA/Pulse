@@ -20,6 +20,12 @@
         img {
             width: 100%;
         }
+        &_animated {
+            animation: heartbeat 2s ease infinite; //название, продолжительность, выбор анимации, общее время
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__title {
         text-align: center;
