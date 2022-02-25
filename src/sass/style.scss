@@ -1,20 +1,9 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
 @import 'base/variables';
-@import 'blocks/promo';
-@import 'blocks/header';
-@import 'blocks/buttons';
-@import 'blocks/advantage';
-@import 'blocks/consultation';
-@import 'blocks/title';
-@import 'blocks/hamburger';
-@import 'blocks/menu-mobile';
-@import 'blocks/forms';
-@import 'blocks/carousel';
-@import 'blocks/catalog';
-@import 'blocks/comment';
-@import 'blocks/footer';
-@import 'blocks/modal';
-@import 'blocks/pageup';
 @import 'base/animations';
+
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -42,3 +31,18 @@ h1, h2, p {
 }
 
 @import 'blocks/media';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantage';
+@import 'blocks/consultation';
+@import 'blocks/title';
+@import 'blocks/hamburger';
+@import 'blocks/menu-mobile';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/comment';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
